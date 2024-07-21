@@ -1,4 +1,4 @@
-package com.microservice.ff.scheduler;
+package com.microservice.ff.scheduler.trigger;
 
 import com.microservice.ff.scheduler.job.CryptoDataAggregator;
 import lombok.extern.slf4j.Slf4j;
@@ -8,12 +8,12 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-public class Trigger {
+public class PollingTrigger {
 
     private final CryptoDataAggregator cryptoDataAggregator;
 
     @Autowired
-    public Trigger(CryptoDataAggregator cryptoDataAggregator) {
+    public PollingTrigger(CryptoDataAggregator cryptoDataAggregator) {
         this.cryptoDataAggregator = cryptoDataAggregator;
     }
 

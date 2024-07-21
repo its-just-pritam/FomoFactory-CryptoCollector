@@ -24,5 +24,12 @@ services:
       SUPER_USER: ffuser
       SUPER_PASSWORD: ffpassword
 
+  ff-frontend:
+    build: ./ssr-app
+    container_name: ff-frontend
+    restart: always
+    ports:
+      - "3000:3000"
+
 volumes:
   ff_volume_mongo_data:
