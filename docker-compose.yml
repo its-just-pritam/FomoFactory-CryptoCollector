@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  ff-mongo:
+    image: mongo:latest
+    container_name: ff-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ffuser
+      MONGO_INITDB_ROOT_PASSWORD: ffpassword
+      MONGO_INITDB_DATABASE: ffcryptodb
+    volumes:
+      - ff_volume_mongo_data:/data/db
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+
+  ff-backend:
+    build: ./backend
+    container_name: ff-backend
+    restart: always
+    ports:
+      - "8090:8090"
+    environment:
+      SUPER_USER: ffuser
+      SUPER_PASSWORD: ffpassword
+
+  ff-frontend:
+    build: ./ssr-app
+    container_name: ff-frontend
+    restart: always
+    ports:
+      - "3000:3000"
+
+volumes:
+  ff_volume_mongo_data:
