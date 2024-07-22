@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2024-07-22T17:28:26.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="e9Kdpk3DMumjss86pvVX" version="24.3.1" type="device">
+  <diagram id="3-bKnA41ZnDjqr49h6EP" name="Page-1">
+    <mxGraphModel dx="1509" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-77ms18FtElSm0IZHuij-12" value="Free API Endpoints" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-77ms18FtElSm0IZHuij-12">
+          <mxGeometry width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.coingecko.com/s/coingecko-logo-8903d34ce19ca4be1c81f0db30e924154750d208683fad7ae6f2ce06c76d0a56.png;" vertex="1" parent="-77ms18FtElSm0IZHuij-12">
+          <mxGeometry x="10" y="10" width="178.57" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="320" width="168" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-14" value="Database Container" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="-77ms18FtElSm0IZHuij-19">
+          <mxGeometry width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-1" value="MongoDB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="-77ms18FtElSm0IZHuij-19">
+          <mxGeometry x="20" y="30" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="-77ms18FtElSm0IZHuij-19">
+          <mxGeometry x="80" y="-50" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-24" value="" style="group;fontSize=13;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="110" width="248" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-5" value="Backend Microservice Container" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="-77ms18FtElSm0IZHuij-24">
+          <mxGeometry y="50" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-3" value="Spring Boot application" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="-77ms18FtElSm0IZHuij-24">
+          <mxGeometry x="10" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-7" value="Caffeine Cache" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Cache_for_Redis.svg;" vertex="1" parent="-77ms18FtElSm0IZHuij-24">
+          <mxGeometry x="15" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-13" value="Spring Scheduler" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scheduler;pointerEvents=1;" vertex="1" parent="-77ms18FtElSm0IZHuij-24">
+          <mxGeometry x="130" y="130" width="52" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="-77ms18FtElSm0IZHuij-24">
+          <mxGeometry x="160" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="430" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-28" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Frontend Server-Side Rendering CContainer&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="-77ms18FtElSm0IZHuij-31">
+          <mxGeometry y="50" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-17" value="Next.js App" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png;" vertex="1" parent="-77ms18FtElSm0IZHuij-31">
+          <mxGeometry x="30" y="80" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="-77ms18FtElSm0IZHuij-31">
+          <mxGeometry x="179.39999999999998" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-27" value="Redux" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-images-1.medium.com/max/1600/1*Vo5RDpNkOsfDn8sx06mthA.png;" vertex="1" parent="-77ms18FtElSm0IZHuij-31">
+          <mxGeometry x="120" y="85" width="59.4" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.6;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-77ms18FtElSm0IZHuij-13" target="-77ms18FtElSm0IZHuij-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="631" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-33" value="Fetch crypto data (15 second interval)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="-77ms18FtElSm0IZHuij-32">
+          <mxGeometry x="-0.2482" y="2" relative="1" as="geometry">
+            <mxPoint x="-116" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-77ms18FtElSm0IZHuij-3" target="-77ms18FtElSm0IZHuij-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-35" value="Persist non-redundant crypto data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="-77ms18FtElSm0IZHuij-34">
+          <mxGeometry x="-0.4785" y="-3" relative="1" as="geometry">
+            <mxPoint x="-45" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-77ms18FtElSm0IZHuij-17" target="-77ms18FtElSm0IZHuij-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-37" value="Poll top 20 crypto data&amp;nbsp;&lt;div&gt;(15 second interval)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="-77ms18FtElSm0IZHuij-36">
+          <mxGeometry x="0.0882" y="-2" relative="1" as="geometry">
+            <mxPoint x="28" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-38" value="localhost:3030" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-77ms18FtElSm0IZHuij-41" value="" style="shape=link;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-77ms18FtElSm0IZHuij-28" target="-77ms18FtElSm0IZHuij-38">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="530" y="380" as="sourcePoint" />
+            <mxPoint x="630" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
