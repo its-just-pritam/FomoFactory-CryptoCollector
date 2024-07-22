@@ -81,9 +81,9 @@ export default function Price() {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            console.log('Logs every 30 seconds');
+            console.log('Logs every 15 seconds');
             fetchData(dispatch,currentCoin);
-        }, 30000);
+        }, 15000);
         return () => clearInterval(intervalId);
       }, [currentCoin]);
 

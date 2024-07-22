@@ -17,7 +17,7 @@ public class PollingTrigger {
         this.cryptoDataAggregator = cryptoDataAggregator;
     }
 
-    @Scheduled(initialDelay = 10000, fixedRate = 30000)
+    @Scheduled(initialDelay = 5000, fixedRate = 15000)
     public void run() {
         LOGGER.info("[{}.{}] Executing job", this.getClass().getSimpleName(), "run");
         cryptoDataAggregator.execute();
